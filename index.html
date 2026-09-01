@@ -1,45 +1,92 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nina Apach | Statistics & Data Science</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <h1>Celenia Chapa</h1>
+  <header>
+    <div class="container">
+      <div class="subtitle">Statistics &amp; Data Science</div>
+      <h1>Celenia Chapa</h1>
+      <p>A small portfolio of data analysis and statistical modeling projects.</p>
 
-  <img width="200" src="https://upload.wikimedia.org/wikipedia/commons/b/be/Bicho-pregui%C3%A7a_3.jpg" alt="sloth">
+      <div class="button-row">
+        <a class="button" href="https://github.com/ceci-chapa" target="_blank">GitHub</a>
+        <a class="button" href="https://www.linkedin.com/in/celenia-chapa/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </header>
 
-  <p>I want some chocolate cake!</p>
-  <p>This heat needs to go away already.</p>
+  <main class="container">
+    <section class="intro">
+      <h2>Selected Projects</h2>
+      <p>
+        This page highlights selected projects involving statistical modeling,
+        survival analysis, regression, classification, and data visualization.
+      </p>
+    </section>
 
-  <ul>
-    <li>Facebook: <a href="https://www.facebook.com/" target="_blank">Visit my profile</a></li>
-    <li>Instagram: <a href="https://www.instagram.com/" target="_blank">Visit my profile</a></li>
-    <li>LinkedIn: <a href="https://www.linkedin.com/" target="_blank">Visit my profile</a></li>
-  </ul>
+    <section>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div>
+            <h3>Survival Analysis: Infant Pneumonia Hospitalization</h3>
+            <p>
+              An analysis of time-to-hospitalization outcomes using survival analysis methods,
+              including Kaplan-Meier curves, Cox proportional hazards modeling, and AFT models.
+            </p>
+            <div class="tags">
+              <span class="tag">R</span>
+              <span class="tag">Survival Analysis</span>
+              <span class="tag">Cox PH</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/ceci-chapa/pediatric-pneumonia" target="_blank">View Repository</a>
+          </div>
+        </article>
 
-  <p>Here are the things that I like:</p>
-  <table>
-    <tr>
-      <th>Movies</th>
-      <th>Books</th>
-      <th>Activities</th>
-    </tr>
-    <tr>
-      <td>Eternal Sunshine of the Spotless Mind</td>
-      <td>The Stinky Cheese Man</td>
-      <td>Walking</td>
-    </tr>
-    <tr>
-      <td>Donnie Darko</td>
-      <td>Humpty Dumpty</td>
-      <td>Running</td>
-    </tr>
-  </table>
-  <p>
+        <article class="project-card">
+          <div>
+            <h3>Multinomial Logistic Regression: Crop Classification</h3>
+            <p>
+              A classification project using multinomial logistic regression to predict crop type
+              based on environmental and soil-related predictors.
+            </p>
+            <div class="tags">
+              <span class="tag">R</span>
+              <span class="tag">Classification</span>
+              <span class="tag">Model Evaluation</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/ceci-chapa/crop-multinomial" target="_blank">View Repository</a>
+          </div>
+        </article>
 
 
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills Used</h2>
+      <div class="skills-list">
+        <span>R</span>
+        <span>Python</span>
+        <span>SQL</span>
+        <span>Regression</span>
+        <span>Survival Analysis</span>
+        <span>Classification</span>
+        <span>Data Visualization</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Celenia Chapa</p>
+  </footer>
 </body>
-
 </html>
