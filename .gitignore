@@ -1,0 +1,14 @@
+
+
+# Code editors
+**/.vscode/
+.idea/
+
+
+# Operating Systems
+.DS_Store
+Thumbs.db
+
+#temporary files
+*.tmp
+*.log
